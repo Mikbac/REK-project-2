@@ -185,7 +185,7 @@ class AmazonRecommender(Recommender):
         # Map item ids
 
         items_df = items_df.copy()
-        items_df.replace({'item_id': self.user_id_mapping}, inplace=True)
+        items_df.replace({'item_id': self.item_id_mapping}, inplace=True)
 
         # Generate recommendations
 
