@@ -236,7 +236,7 @@ class DataPreprocessingToolkit(object):
             return "Autumn"
 
     def map_value_to_bucket(self, value, buckets):
-        if value == "":
+        if value == "" or value == 'nan':
             return str(buckets[0]).replace(", ", "-")
         for bucket in buckets:
             if bucket[0] <= value <= bucket[1]:
