@@ -38,7 +38,7 @@ Notebooks run in the following order:
 1. ```project_1_data_preparation.ipynb```
 2. ```project_2_recommender_and_evaluation.ipynb```
 
-In  ```project_2_recommender_and_evaluation.ipynb``` run all cells except second, third, and fourth tuning.
+In  ```project_2_recommender_and_evaluation.ipynb``` run all cells.
 
 ## Requirements
 
