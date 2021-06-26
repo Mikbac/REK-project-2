@@ -1,4 +1,4 @@
-name: rs-class-env
+name: rekProjectTwo
 channels:
   - anaconda
   - defaults
